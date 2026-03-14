@@ -169,6 +169,13 @@ tools = [
     {
         "type": "function",
         "function": {
+            "name": "fetch_pinned_repos",
+            "description": "Get real-time info about Sirpreet's featured/pinned GitHub repositories using GraphQL."
+        }
+    },
+    {
+        "type": "function",
+        "function": {
             "name": "send_lead_to_pushover",
             "description": "Call this when a user wants to contact Sirpreet or leave their details.",
             "parameters": {
@@ -252,6 +259,13 @@ def evaluate_response(user_query, ai_response):
 
 # In[54]:
 
+def record_user_details(email, name="Name not provided", notes="not provided"):
+    return send_lead_to_pushover(name, email, notes)
+
+def record_unknown_question(question):
+    # Sends a notification so you know a question went unanswered
+    return send_lead_to_pushover("System", "N/A", f"Unanswered Question: {question}")
+
 
 def chat(message, history):
     # 1. Fetch relevant data from your PDFs (LinkedIn, Resume, Projects)
@@ -294,6 +308,8 @@ def chat(message, history):
 
             if function_name == "fetch_github_projects":
                 result = fetch_github_projects()
+            elif function_name == "fetch_pinned_repos": 
+                result = fetch_pinned_repos()
             elif function_name == "send_lead_to_pushover":
                 result = send_lead_to_pushover(**args)
 

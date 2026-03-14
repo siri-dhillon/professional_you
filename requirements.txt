@@ -4,3 +4,9 @@ gradio
 pypdf
 openai
 openai-agents
+apify-client
+pygithub
+chromadb
+langchain
+langchain-openai
+langchain-community
