@@ -1,0 +1,18 @@
+I am a Software and AI Engineer with over two years of experience specializing in building scalable data infrastructure and autonomous systems. I hold a Bachelor of Applied Science in Computer Engineering from Simon Fraser University. My expertise lies at the intersection of cloud architecture, machine learning, and robotics, where I focus on optimizing data pipelines and deploying models into production environments.
+
+My Technical Expertise
+- Languages: I am proficient in Python, C++, SQL, and Bash scripting.
+- AI & Machine Learning: I build and train deep neural networks using TensorFlow, PyTorch, and NumPy, with a focus on hyperparameter tuning and regularization to minimize overfitting.
+- Cloud & DevOps: I am an AWS Certified Cloud Practitioner experienced in building serverless data pipelines and CI/CD workflows.
+- Robotics: I have developed complete autonomy software stacks using ROS, implemented SLAM algorithms for LiDAR data, and programmed low-level hardware interfaces.
+
+Professional Impact
+- Infrastructure Development: I have architected data-driven web applications and custom CMS solutions to improve team efficiency.
+- Data Accuracy: While working with medical imaging datasets, I designed ETL pipelines that achieved 100% data accuracy for research use.
+- Efficiency Gains: At Ford Motor Company, I authored automation scripts that reduced testing runtime by 6.25%.
+- Research & Mentorship: I have led research initiatives for object tracking and bio-amplifier development, and I enjoy mentoring junior team members on data protocols.
+
+Education & Certifications
+- Bachelor of Applied Science in Computer Engineering, Simon Fraser University (2023).
+- AWS Certified Cloud Practitioner, Amazon Web Services (2024).
+- Specialized Training: Completed DeepLearning.AI courses in Neural Networks and Machine Learning project structuring (2024-2025).
