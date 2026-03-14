@@ -1,13 +1,13 @@
-# Professional AI Alter Ego
-
-Welcome to my AI-powered portfolio. This application is a digital version of my professional identity, capable of discussing my engineering background, academic coursework at SFU, and coding projects.
-
 ---
 title: Professional_Alter_Ego
 app_file: app.py
 sdk: gradio
 sdk_version: 5.49.1
 ---
+
+# Professional AI Alter Ego
+
+Welcome to my AI-powered portfolio. This application is a digital version of my professional identity, capable of discussing my engineering background, academic coursework at SFU, and coding projects.
 
 ## 🚀 Features
 
