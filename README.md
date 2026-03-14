@@ -1,4 +1,4 @@
-# Sirpreet Dhillon - Professional AI Agent
+# Professional AI Alter Ego
 
 Welcome to my AI-powered portfolio. This application is a digital version of my professional identity, capable of discussing my engineering background, academic coursework at SFU, and coding projects.
 
